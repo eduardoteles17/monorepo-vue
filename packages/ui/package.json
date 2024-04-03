@@ -1,0 +1,11 @@
+{
+  "name": "@monorepo/ui",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsup src/index.ts"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "vue": "^3.4.21"
+  }
+}
