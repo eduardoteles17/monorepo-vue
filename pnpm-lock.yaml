@@ -14,6 +14,9 @@ importers:
         specifier: ^3.4.21
         version: 3.4.21(typescript@5.4.3)
     devDependencies:
+      '@monorepo/tsconfig':
+        specifier: workspace:^
+        version: link:../../packages/tsconfig
       '@vitejs/plugin-vue':
         specifier: ^5.0.4
         version: 5.0.4(vite@5.2.8)(vue@3.4.21)
@@ -26,6 +29,8 @@ importers:
       vue-tsc:
         specifier: ^2.0.6
         version: 2.0.7(typescript@5.4.3)
+
+  packages/tsconfig: {}
 
 packages:
 
